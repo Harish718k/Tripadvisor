@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper{
+    max-width: 1136px;
+    margin: 0px auto;
+    padding: 10px 0px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.logo img{
+    width: 188px;
+}
+
+.header-nav1 ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: 600;
+}
+
+.header-nav1 ul li{
+    padding: 8px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.header-nav1 ul li:hover{
+    background-color: rgb(237, 237, 237);
+}
+
+.header-nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-nav2 .separater{
+    width: 1px;
+    height: 26px;
+    background-color: rgb(185, 185, 185);
+}
+
+.currency{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.currency:hover{
+    background-color: rgb(237, 237, 237);
+}
+
+
+header span, .main-nav span{
+    display: flex;
+    align-items: center;
+}
+
+.signin{
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.signin:hover{
+    background-color: rgb(47, 47, 47);
+}
+
+.heading h1{
+    font-size: 58px;
+    margin-top: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+
+.main-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0px 10px;
+}
+.main-nav ul li{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0px;
+    cursor: pointer;
+    color: rgb(45, 45, 45);
+}
+
+.main-nav ul li:hover{
+    fill: rgb(82, 82, 82);
+    color: rgb(82, 82, 82);
+    box-shadow: 0px 2px 0px rgb(71, 71, 71);
+}
+
+.main-nav ul .active{
+    
+    box-shadow: 0px 2px 0px rgb(0, 0, 0);
+    color: black;
+}
+
+.search-bar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    margin: 30px auto;
+    max-width: 800px;
+    min-width: 500px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px gray;
+    padding: 5px;
+}
+
+.search-bar input{
+    border: none;
+    width: 100%;
+    font-size: 18px;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+.search-bar button{
+    padding: 14px 24px;
+    background-color: #34e0a1;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    font-weight: 550;
+    font-size: 16px;
+}
+
+.search-bar button:hover{
+    background-color: #59eeb8;
+}
+
+.fa-magnifying-glass{
+    font-size: 24px;
+    padding: 0px 15px;
+}
+
+.banner-container{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.banner-img{
+    width: 100%;
+    z-index: -1;
+}
+.banner-img img{
+    border-radius: 10px;
+    width: 100%;
+}
+.banner-content{
+    display: flex;
+}
+
+.banner-content div{
+    width: 50%;
+}
+
+.banner-content-left{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 0px;
+    left: 30px;
+    padding: 60px 24px 32px 76px;
+}
+.banner-content-left h5{
+    margin-bottom: 15px;
+}
+.banner-content-left h5 span{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 7px;
+}
+
+.banner-content-left h1{
+    font-size: 50px;
+    line-height: 50px;
+    padding: 10px 0px;
+}
+
+.banner-content-left h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.banner-content-left button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+}
+
+.banner-content-left button span{
+    display: flex;
+    align-items: center;
+}
+
