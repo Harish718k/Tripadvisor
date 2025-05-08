@@ -404,3 +404,36 @@ footer span a{
     color: #0a0a0a;
     font-size: 14px;
 }
+
+
+footer .links2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+footer .copyrights>div:nth-child(1){
+    display: flex;
+    gap: 10px;
+}
+
+footer .copyrights img{
+    width: 40px;
+}
+
+footer .copyrights p{
+    font-size: 12px;
+}
+
+footer .copyrights ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    font-weight: 600;
+}
+
+footer .copyrights ul a{
+    color: #3a3a3a;
+    font-size: 14px;
+}
+
